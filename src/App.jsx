@@ -4,10 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './components/Header';
 import Footer from'./components/Footer';
 import Sidebar from './components/Sidebar';
-import CreatePost from './components/CreatePost';
+import CreatePost from './components/CreatePost.jsx';
 import PostList from './components/PostList';
 import { useState } from 'react';
-import PostListProvider from './store/Post-list-store';
+import PostListProvider from './store/Post-list-store.jsx';
 function App() {
 
    const [selectTab,setselectTab]=useState("Home");
